@@ -138,7 +138,7 @@ pyenv global 3.9.6
 //更新python 環境資訊(如果有使用 pip 安裝或解安裝 library 以及異動特定 version Python 的資料夾內容，必須使用 rehash 通知 pyenv 重新對應相關的使用連結。):
 pyenv rehash
 ```
-<a href = 'https://sdwh.dev/posts/2021/08/Python-Pyenv/'> reference (for Window OS)</a>
+<a href = 'https://sdwh.dev/posts/2021/08/Python-Pyenv/'> reference (for Window OS)</a><br>
 <a href = 'https://blog.codylab.com/python-pyenv-management/'>reference(for Linux OS)</a>
 
 ## virtual environment(虛擬環境架設)
