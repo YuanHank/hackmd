@@ -208,5 +208,6 @@ pip freeze > requirtment.txt
 --------------------------------------------
 //安裝requirtment: 
 pip install –r requirement.txt
-
 ```
+<a href='https://blog.joannefei.com/python-virtual-environment/'>reference 1</a><br>
+<a href = 'https://developer.mozilla.org/zh-TW/docs/Learn/Server-side/Django/development_environment'>reference 2</a>
