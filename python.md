@@ -138,6 +138,10 @@ pyenv global 3.9.6
 //更新python 環境資訊(如果有使用 pip 安裝或解安裝 library 以及異動特定 version Python 的資料夾內容，必須使用 rehash 通知 pyenv 重新對應相關的使用連結。):
 pyenv rehash
 ```
+如果要使用pyenv執行不同版本python，則有以下兩種方法:
+1. 使用pyenv-virtualenv套件，並建立指定版本的環境
+2. 在要使用的環境下(使用local指定環境後，會在該資料夾內產生版本檔案，影響該資料夾內的python版本)，安裝venv，利用venv建立環境(注意需要先確定local的python版本是我們所需的)
+
 <a href = 'https://sdwh.dev/posts/2021/08/Python-Pyenv/'> reference (for Window OS)</a><br>
 <a href = 'https://blog.codylab.com/python-pyenv-management/'>reference(for Linux OS)</a>
 
